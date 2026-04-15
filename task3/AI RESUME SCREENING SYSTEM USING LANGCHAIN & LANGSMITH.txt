@@ -1,0 +1,39 @@
+AI RESUME SCREENING SYSTEM USING LANGCHAIN & LANGSMITH
+
+Submitted by:
+Neha Nourin MA
+
+1. Introduction
+This project presents an AI-powered Resume Screening System that automates candidate evaluation using Generative AI and Large Language Models.
+
+2. Objective
+To design an AI system that evaluates resumes using LangChain with explainable outputs.
+
+3. Problem Statement
+Manual resume screening is inefficient and inconsistent. This system automates the process.
+
+4. Proposed Solution
+Input: Resume + Job Description
+Output: Score (0–100) + Explanation
+
+5. System Architecture
+Resume → Extraction → Matching → Scoring → Explanation → Output
+
+6. Technologies Used
+Python, LangChain, LangSmith, OpenAI API
+
+7. Methodology
+- Skill Extraction
+- Matching Logic
+- Scoring
+- Explanation
+
+8. LangChain Implementation
+Uses PromptTemplate, LCEL, and invoke() method.
+
+9. LangSmith Tracing
+Used for monitoring, debugging, and tracking pipeline steps.
+(Add screenshots here: dashboard, extraction, matching, scoring, explanation)
+
+10. Conclusion
+This project demonstrates real-world AI system building with explainability.
